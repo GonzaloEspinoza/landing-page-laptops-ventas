@@ -1,0 +1,71 @@
+#content-welcome{
+    
+
+    /* background-color: #00179c;
+    background-image: linear-gradient(270deg, #00179c 0%, #C850C0 46%, #7b02ac 100%);
+     */
+     transition: ease-in-out;
+     background-color: #0f2336ce;
+  
+
+}
+
+#content-welcome::before{
+    position: absolute;
+    /* padding-top: 100px; */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    /* padding-top: 90px; */
+    content: 'erer';
+    background-image: url("../../../../assets/img/background-home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position-x: right;
+    z-index: -1;
+    animation-name: videoTransition;
+    animation-iteration-count:  infinite;
+}
+
+.video-background{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    z-index: -1;
+    /* height: 100%; */
+}
+
+
+.laptops-show{
+
+    content: url('../../../../assets/img/laptopHp10.png');
+
+    /* background-image: url('../../../../assets/img/laptopHp10.png'); */
+    margin: auto;
+    width: 100%;
+    height: max-content;
+    overflow: hidden;
+
+    animation-name: changeImg;
+    animation-iteration-count: infinite;
+    animation-duration: 9s;
+    /* transition: all .5s ease; */
+}
+
+@keyframes changeImg {
+    to{
+        content: url('../../../../assets/img/laptopHp10.png');
+        
+    }
+    50%{
+        content: url('../../../../assets/img/laptops-ph.png');
+        /* padding-right: 1; */
+        
+    }
+    from{
+        content: url('../../../../assets/img/laptops-aussu.png');
+    }
+}

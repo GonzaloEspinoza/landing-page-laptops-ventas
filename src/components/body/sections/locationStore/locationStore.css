@@ -1,0 +1,17 @@
+.text-gradient::before{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    content: "Servicio de soporte técnico de laptops y PC's";
+    background-size: 300%;
+    -webkit-background-clip: text;
+        background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    animation:fluido 30s ease-in-out infinite;
+    transition: transform 2s;
+}
+
+@keyframes fluido {
+    0% { content: "Mantenimiento de computadoras en general"; background-position: 0 50% }
+    50% { content: "Optimización de software";  background-position: 100% 50% }
+    100% { content: "Instalación de componentes en general";  background-position: 0 50% }
+}

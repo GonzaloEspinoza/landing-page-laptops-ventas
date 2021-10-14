@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+  
 }
 
 .App-logo {
@@ -35,4 +37,72 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* .App::before{
+  color: white;
+  position: static;
+  content: 'this acom';
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  filter: blur(4px);
+
+} */
+
+.App .circolo-desenfocado{
+  position: fixed;
+  background: rgb(206, 206, 206);
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  box-shadow: 0 0 300px rgb(9, 243, 223);
+  filter: blur(90px);
+  
+  animation-duration: 4s;
+  animation-name: movinCircle;
+  animation-iteration-count:  infinite;
+  
+
+}
+
+@keyframes movinCircle {
+    from{
+      top: 30px;
+      left: -90px;
+    }
+    10%{
+      top: 40px;
+      left: 00px;
+    }
+    40%{
+      top: 50px;
+      left: 20px;
+    }
+    50%{
+      top: 100px;
+      left: 40px;
+    }
+  
+    60%{
+      top: 400px;
+      left: 500px;
+    }
+    70%{
+      top: 450px;
+      left: 550px;
+    }
+    70%{
+      top: 500px;
+      left: 600px;
+    }
+    80%{
+      top: 600px;
+      left: -90px;
+    }
+    to{
+      top:30px;
+      left: -90px;
+    }
 }
