@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './locationStore.css'
-import storePhoto from '../../../../assets/img/storePhoto.jpeg'
+import storePhoto from '../../../../assets/img/storePhoto2.jpg'
 
 const LocationStore = () => {
 
