@@ -41,11 +41,11 @@ const Navbar =()=>{
     return(
         <>
             <div className={`navbar flex justify-between w-screen h-16  border-b-1 border-gray-700 ${actionScroll?'styleTop':'styleDow'}`}>
-                <div className="flex  justify-center  h-full mx-20">
+                <div className="flex  justify-center  h-full mx-2 sm:mx-20">
                     <div className="flex justify-center my-auto">
                         <img src={logoImg} width="45" height="45" alt="" />
                     </div>
-                    <h1 className="text-2xl font-extrabold my-auto text-white mx-2">Soft. Evolution Bolivia</h1>
+                    <h1 className="text-2xl font-extrabold my-auto  mx-2">Soft. Evolution Bolivia</h1>
                 </div>
             </div>
         </>

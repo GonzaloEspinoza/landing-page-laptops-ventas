@@ -8,10 +8,12 @@
 
 .styleTop{
     background-color: #142d46ce;
+    color: white;
     /* background-image: linear-gradient(90deg, #180277 0%, #bb00bd 100%); */
 }
 
 .styleDow{
-    background-color: #000000;
+    background-color: #ffffff;
+    color: black !important;
 }
 

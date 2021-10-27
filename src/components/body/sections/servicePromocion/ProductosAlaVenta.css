@@ -1,7 +1,7 @@
 
 .content-detail{
     /* position: fixed; */
-    height: 25vh;
+    height: 15vh;
     width: 100%;
     overflow-y: scroll;
 
@@ -21,16 +21,6 @@
 }
 
 
-/* 
-body::-webkit-scrollbar {
-    width: 0.30rem;
-  }
-  
-  body::-webkit-scrollbar-track{
-    background: #1e1e24 !important;
-  }
-  
-  body::-webkit-scrollbar-thumb{
-    background: #6246ea;
-  }
-   */
+.content-products{
+  background: #F1F1F1;
+}

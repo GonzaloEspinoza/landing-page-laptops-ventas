@@ -55,17 +55,20 @@
     /* transition: all .5s ease; */
 }
 
+
 @keyframes changeImg {
     to{
         content: url('../../../../assets/img/laptopHp10.png');
-        
+
+        height: max-content;
     }
     50%{
         content: url('../../../../assets/img/laptops-ph.png');
-        /* padding-right: 1; */
+        height: max-content;
         
     }
     from{
         content: url('../../../../assets/img/laptops-aussu.png');
+        height: max-content;
     }
 }

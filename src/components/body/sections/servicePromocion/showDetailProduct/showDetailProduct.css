@@ -1,0 +1,20 @@
+
+.content-modal{
+    position:fixed;
+    width: 100%;
+    height: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    
+    z-index: 20;
+    /* background: rgb(3, 238, 226); */
+}
+.content-modal::-webkit-scrollbar{
+    display: none;
+}
+#modal-deatail{
+    /* overflow-y: scroll; */
+    height: 100%;
+}
